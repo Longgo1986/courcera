@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<title>Best restarant</title>
 
-You can use the [editor on GitHub](https://github.com/Longgo1986/courcera/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css" >
+<meta name="viewport" content="width=device-width" initial-scale=1>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <h1>Welcome to Our restorant</h1>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="wrapper">
+            <p class="menuname"> Chicken</p>
+            <section>Massala chickedfjdl fjldskjfdlskjfksld jflksdjfldksf dfjsdlfjslfkj dslkfjsd lfkjsdl fjsldkfj dlkfjsadfkjsdlf sdlkfjs dfn</section>
+        </div>
+    </div>
 
-### Markdown
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="wrapper">
+            <p class="menuname #beef" id="beef">Beef</p>
+            <section> our soup is made of the best ingridients and super yami yami broth, it will be the best what you ever tried in your life.</section>
+        </div>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="col-sm-12 col-lg-4">
+        <div class="wrapper">
+            <p class="menuname #sushi" id="sushi">Sushi</p>
+            <section>Best sushi in the world, made by japanese chief. Fresh fish just from the ocean come to restorant.</section>
+        </div>
+    </div>
+</div>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Longgo1986/courcera/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>

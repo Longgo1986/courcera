@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box ;
+}
+/* for all types*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.wrapper {
+   
+        border: 1px solid black;
+        margin: 3px;
+        overflow: auto; 
+        
+        float: left;
+        
+}
+
+.row {
+    width:100%;
+    position: relative;
+    padding: 0px;
+    background-color:aqua;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(127, 157, 255);
+}
+p {
+    
+    border: 0px solid black;
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding: 0px;
+    margin:0px;
+    
+}
+ #beef{
+    background-color: pink;
+}
+
+#sushi{
+    background-color: bisque;
+}
+.menuname{
+    background-color: red;
+    
+    float: right;
+    clear: both;
+    width: 20%;
+    overflow:auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: medium;
+    
+}
+
+section {
+    clear:right;
+    background-color: grey;
+    padding: 5px;
+    height: 90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media(max-width: 767px){
+    .col-sm-12{
+        width: 100%;
+        float:left;
+        margin: auto;
+    }
+}
+
+/* Midium size device*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        width: 50%;
+       float:left;
+    }
+    
+}
+
+@media (min-width:992px){
+    .col-lg-4{
+        width: 32%;
+        float:left;
+    }
+}
